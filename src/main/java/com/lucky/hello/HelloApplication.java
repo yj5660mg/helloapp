@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @SpringBootApplication
 public class HelloApplication {
-
+//Homepage
 	@RequestMapping("/Hello")
 	@ResponseBody
 	String homepage() {
